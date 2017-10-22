@@ -9,12 +9,12 @@
         <div class="info-item">剩余单词：{{listLength}}</div>
       </div>
       <div class="study-section" v-if="!finished">
-        <h1 class="word">{{tempWord.cn}}</h1>
+        <div class="word">{{tempWord.cn}}</div>
         <div class="blank"></div>
-        <h2 class="real-answer" :class="[{'answer-right':answerRight},
+        <div class="real-answer" :class="[{'answer-right':answerRight},
                  {'answer-wrong':!answerRight},
                  {'invisible':!showAnswer}]">
-          {{tempWord.en}}</h2>
+          {{tempWord.en}}</div>
         <div class="blank"></div>
         <el-input v-model="inputValue" class="input"
                   @keyup.enter.native="checkAnswer"

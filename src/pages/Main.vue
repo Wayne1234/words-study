@@ -34,23 +34,23 @@
 
   const listInfo = [
     {
-      listId:'100001',
-      listName: "GRE单词",
+      listId: '100001',
+      listName: "customList(测试单词列表)",
       preview: "tenacious,attorney,diffident,meticulous...",
       wordsCount: 233,
       createTime: '2017.09.21',
-      editUrl:'/',
-      studyUrl:'/#/study/?list=customList',
-      localStorageKey:'customList',
+      editUrl: '/',
+      studyUrl: '/#/study/?list=customList',
+      localStorageKey: 'customList',
     },
     {
-      listId:'100002',
+      listId: '100002',
       listName: "托福单词",
       preview: "tenacious,attorney,diffident,meticulous...",
       wordsCount: 233,
       createTime: '2017.09.21',
-      editUrl:'/#/edit/?listId=100002',
-      studyUrl:'/#/study/?listId=100002',
+      editUrl: '/#/edit/?listId=100002',
+      studyUrl: '/#/study/?listId=100002',
     }];
 
   export default {
@@ -64,7 +64,7 @@
       }
     },
     beforeMount() {
-//      this.$http.get('http://localhost:3000/users/testAPi');
+      this.$http.jsonp('http://localhost:3000/users/testAPi', {credentials: true});
     },
     methods: {
       handleSelect(key, keyPath) {
@@ -86,6 +86,7 @@
           .item-title {
             font-size: 20px;
             display: inline-block;
+            width: 280px;
           }
           .item-edit, .item-study {
             display: inline-block;
