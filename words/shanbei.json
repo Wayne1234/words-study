@@ -1,0 +1,56 @@
+{
+  "msg": "SUCCESS",
+  "status_code": 0,
+  "data": {
+    "pronunciations": {
+      "uk": "k\u0259n'd\u028ckt; \u02c8k\u0252nd\u028ckt",
+      "us": "k\u0259n'd\u028ckt; \u02c8k\u0251\u02d0nd\u028ckt"
+    },
+    "en_definitions": {
+      "v": [
+        "direct the course of; manage or control",
+        "lead, as in the performance of a composition; Barenboim conducted the Chicago symphony for years\"",
+        "behave in a certain manner"
+      ],
+      "n": [
+        "manner of acting or controlling yourself",
+        "(behavioral attributes) the way a person behaves toward other people"
+      ]
+    },
+    "audio_addresses": {
+      "uk": [
+        "https://media-audio1.baydn.com/uk%2Fc%2Fco%2Fconduct_1.mp3",
+        "http://media-audio1.qiniu.baydn.com/uk/c/co/conduct_1.mp3"
+      ],
+      "us": [
+        "https://media-audio1.baydn.com/us%2Fc%2Fco%2Fconduct_1.mp3",
+        "http://media-audio1.qiniu.baydn.com/us/c/co/conduct_1.mp3"
+      ]
+    },
+    "uk_audio": "http://media.shanbay.com/audio/uk/conduct.mp3",
+    "conent_id": 1780,
+    "audio_name": "conduct_1",
+    "cn_definition": {
+      "pos": "",
+      "defn": "n. \u884c\u4e3a, \u4e3e\u52a8, \u54c1\u884c\nv. \u5f15\u5bfc, \u6307\u6325, \u7ba1\u7406\nvt. \u5bfc\u7535, \u4f20\u70ed"
+    },
+    "num_sense": 1,
+    "content_type": "vocabulary",
+    "sense_id": 0,
+    "id": 1780,
+    "definition": " n. \u884c\u4e3a, \u4e3e\u52a8, \u54c1\u884c\nv. \u5f15\u5bfc, \u6307\u6325, \u7ba1\u7406\nvt. \u5bfc\u7535, \u4f20\u70ed",
+    "content_id": 1780,
+    "url": "https://www.shanbay.com/bdc/mobile/preview/word?word=conduct",
+    "has_audio": true,
+    "en_definition": {
+      "pos": "v",
+      "defn": "direct the course of; manage or control; lead, as in the performance of a composition; Barenboim conducted the Chicago symphony for years\"; behave in a certain manner"
+    },
+    "object_id": 1780,
+    "content": "conduct",
+    "pron": "k\u0259n'd\u028ckt; \u02c8k\u0251\u02d0nd\u028ckt",
+    "pronunciation": "k\u0259n'd\u028ckt; \u02c8k\u0251\u02d0nd\u028ckt",
+    "audio": "http://media.shanbay.com/audio/us/conduct.mp3",
+    "us_audio": "http://media.shanbay.com/audio/us/conduct.mp3"
+  }
+}
