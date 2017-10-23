@@ -64,7 +64,9 @@
       }
     },
     beforeMount() {
-      this.$http.jsonp('http://localhost:3000/users/testAPi', {credentials: true});
+      this.$http.get(this.HOST+'/wordslist').then(res=>{
+        console.log(res);
+      });
     },
     methods: {
       handleSelect(key, keyPath) {

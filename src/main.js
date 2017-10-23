@@ -13,6 +13,7 @@ Vue.use(ElementUI);
 Vue.http.options.xhr = { withCredentials: true }
 
 Vue.config.productionTip = false;
+Vue.prototype.HOST = '/api'
 
 /* eslint-disable no-new */
 new Vue({
